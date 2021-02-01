@@ -12,7 +12,9 @@
         <title>Say Hello</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
-        <h2>Hello ${firstName} ${lastName}! </h2>
+        <%-- This is a JSP Comment --%>
+        <!-- This is an HTML Comment -->
+        <h1>Hello World</h1>
+        <h2>Hello ${person.firstname} ${person.lastname}! </h2>
     </body>
 </html>
